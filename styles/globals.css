@@ -15,6 +15,40 @@ a {
   box-sizing: border-box;
 }
 
+button {
+  background-color: steelblue;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  min-height: 60px;
+  background-color: steelblue;
+  color: white;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  gap: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+section h2,
+section p {
+  max-width: 50%;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
